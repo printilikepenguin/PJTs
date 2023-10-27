@@ -1,0 +1,126 @@
+* {
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+header {
+  background: url(polar.jpg) no-repeat center fixed ;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.small-title { /*섹션 별 소제목*/
+  font-size: 200px;
+}
+
+.main01 {
+  background: url(background1.png) no-repeat center fixed ;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.intro-area {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#intro-bold {
+  color: olive;
+  font-size: 3rem;
+}
+
+.main02 {
+  background: url(background2.png) no-repeat center fixed ;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.skills {
+  font-size: 60px;
+  display: inline-block;
+  position: relative;
+  color: white;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 2px 2px 1px black;
+}
+
+.main03 {
+  background: url(background2.png) no-repeat center fixed ;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.pjt-area {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#layer_popup{
+  display: none;
+}
+
+#layer_popup + label {
+  display: inline-block;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+}
+
+#layer_bg{
+  display: none;
+  position: absolute; /* 시작 지점을 버튼 위, 0픽셀부터 시작하려고 주는 것*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+#popup{
+  position: absolute;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 600px;
+  height: 400px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.2); /*x y 번짐 색상*/
+  }
+
+#popup > h2{
+    margin-bottom: 25px;
+}
+
+#popup > h2 > label{
+    float: right;
+}
+
+#layer_popup:checked + label + #layer_bg {
+  display: block;
+}
+
+.main04 {
+  background: url(background2.png) no-repeat center fixed ;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.email-area {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0 auto;
+}
+
+.ft_sns {
+  display: flex;
+  flex-direction: row;
+}

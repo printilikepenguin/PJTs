@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./01_pjt_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gasoek+One&family=Noto+Sans+KR:wght@900&display=swap" rel="stylesheet">
+  <title>NEw Thang</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <!-- 네비바 로고 -->
+  <nav id="navbar-example2" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">GototheTOP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button></div>
+  <!-- 네비바 -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav nav-pills mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">INTRO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">SKILLS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading3">PROJECT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading4">CONTACT</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- 첫 화면 -->
+  <header class="d-flex flex-column justify-content-center align-items-center">
+    <div class="display-1 text-white " >개발자가</div>
+    <div class="display-1 text-white " >된다는것</div>
+    <div class="display-10 text-white">Please scroll</div>
+  </header>
+
+  <main>
+  <!-- 내용 -->
+    <section class="main01">
+      <h4 class="small-title" id="scrollspyHeading1">Who am I</h4>
+      <div class="intro-area">
+        <p>주니어 개발자 김현지가<br>10년 뒤 프로 김현지에게 하고싶은 말</p>
+        <p id="intro-bold"><em>i hope you like it where i am now</em></p>
+        <p>이 말이 실현될 미래의 저를 위해, 늘 최선의 결과를 내고자 합니다.</p>
+      </div>
+    </section>
+
+    <section class="main02">
+      <h4 class="small-title" id="scrollspyHeading2">SKILLS</h4>
+      <p class="skills">python 경력 2개월</p> <br>
+      <p class="skills">백준 정답률 39.44%</p> <br>
+      <p class="skills">html/css 경력 1주일</p> <br>
+      <p class="skills">한글 타자 속도 430.6타</p> <br>
+      <p class="skills">영문 타자 속도 337타</p>
+    </section>
+    
+    <section class="main03">
+      <h4 class="small-title" id="scrollspyHeading3">PROJECT</h4>
+      <p>Please check!<br></p>
+      <div class="pjt-area">
+      <p>가시오이 부흥위원회 사이트 제작<hr></p>
+      <p>천하제일돌꾼 악세사리 판매 페이지 제작 및 유지보수<hr></p>
+      <p>마음건강 다이어리 'who am I' 어플리케이션 제작<hr></p>
+      <p>펭귄을 지켜줘! 게임 디자인 참여<hr></p>
+      <p>다 구라임 사이트 제작<hr></p>
+    </div>
+    </section>
+
+  <!-- 이메일 문의창 -->
+    <section class="main04">
+      <div class="email-area">
+        <h4 id="scrollspyHeading4">CONTACT</h4>
+          <div class="input-group mb-3">
+          <div class="mb-3">
+            <label for="basic-url" class="form-label">Your email</label>
+            <div class="input-group">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+              </div>
+              <div class="form-text" id="basic-addon4">입력한 이메일로 답장이 갑니다.</div>
+            </div>
+          <div class="input-group">
+            <span class="input-group-text">With textarea</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+        </div>
+        <p style="align-items: flex-end;">feel free to contact me if you have any projects to request.</p>
+      </section>
+    </div>
+  </main>
+
+  <!-- 푸터 -->
+  <footer class="footer" tabindex="20">
+    <div class="ft_info">
+      <p class="ft_business">SSAFY 10th, <br>make towards Full-stack</p>
+      <p class="ft_contact">lotsofcoke@naver.com,<br>+86 139-1089-3245</p>
+      <p class="ft_region">Seoul, Korea</p>
+    </div>
+    <div class="ft_copyright">©Myeonji</div>
+    <div class="ft_sns">
+      <ul class="list-unstyled">
+        <li><a href=""><button>Email</button></a></li>
+        <li><a href=""><button>Blog</button></a></li>
+        <li><a href=""><button>Instagram</button></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
